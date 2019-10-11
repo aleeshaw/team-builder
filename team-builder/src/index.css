@@ -25,22 +25,20 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200 auto;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .sub-button {
-  width: 300px;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .App {
   display: flex;
-  padding-right: 80px;
   justify-content: center;
 }
 
