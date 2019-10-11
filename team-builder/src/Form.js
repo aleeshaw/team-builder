@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './App.css';
+import './index.css';
 
 const Form = props => {
   const [teamMember, setTeamMember] = useState({memberName:"", email:"", role:""});
@@ -11,7 +11,7 @@ const Form = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    //setTeamMember({memberName:'', email:'', role:''});
+    setTeamMember({memberName:'', email:'', role:''});
     props.addMemberFn(teamMember);
     //console.log("Member Info", teamMember);
   };
